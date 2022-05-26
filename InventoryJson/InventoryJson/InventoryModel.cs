@@ -8,9 +8,9 @@ namespace InventoryJson
 {
     internal class InventoryModel
     {
-        public string Name { get; set; }
-        public int Price { get; set; }
-        public int Weight { get; set; }
+        public List<InventoryModelSecond> Rice {get; set;}
+        public List<InventoryModelSecond> Wheat { get; set; }
+        public List<InventoryModelSecond> Pulses { get; set; }
 
     }
 }

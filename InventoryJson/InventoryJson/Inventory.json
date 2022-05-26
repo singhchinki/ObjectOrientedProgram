@@ -1,19 +1,38 @@
-
-  [
+{
+  "Rice": [
     {
-      "name": "Rice",
-      "price": "100",
-      "weight": "10"
+      "Name": "Basmati",
+      "Price": "180",
+      "Weight": "5"
     },
     {
-      "name": "Wheat",
-      "price": "180",
-      "weight": "100"
-    },
-    {
-      "name": "Pulses",
-      "price": "70",
-      "weight": "10"
+      "Name": "Basmati Long",
+      "Price": "400",
+      "Weight": "10"
     }
-
+  ],
+  "Wheat": [
+    {
+      "Name": "sarvati",
+      "Price": "480",
+      "Weight": "5"
+    },
+    {
+      "Name": "M.p Special",
+      "Price": "780",
+      "Weight": "5"
+    }
+  ],
+  "Pulses": [
+    {
+      "Name": "Moong",
+      "Price":"180",
+      "Weight": "5"
+    },
+    {
+      "Name": "masoor",
+      "Price": "480",
+      "Weight": "5"
+    }
   ]
+}
