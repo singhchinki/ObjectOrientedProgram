@@ -28,16 +28,13 @@ namespace InventoryJson
                 switch (choice)
                 {
                     case 1:
-                        InventoryJson.InventoryModel first = new InventoryJson.InventoryModel();
-                        first.Rice = Rice;
+                        foreach (var contact in Rice) Console.WriteLine(contact.Name + " -> " + contact.Price + " -> " + contact.Weight);
                         break;
                         case 2:
-                        InventoryJson.InventoryModel second = new InventoryJson.InventoryModel();    
-                        second.Wheat = Wheat;
+                        foreach (var contact in Wheat) Console.WriteLine(contact.Name + " -> " + contact.Price + " -> " + contact.Weight);
                         break;
                     case 3:
-                        InventoryJson.InventoryModel third = new InventoryJson.InventoryModel();
-                        third.Pulses = Pulses;
+                        foreach (var contact in Pulses) Console.WriteLine(contact.Name + " -> " + contact.Price + " -> " + contact.Weight);
                         break;
                         default:
                         Console.WriteLine("Enter valid option");
