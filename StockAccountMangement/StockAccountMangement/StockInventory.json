@@ -1,0 +1,17 @@
+[
+  {
+    "StockName": "TCS",
+    "NoOfShare": "5",
+    "SharePrice": "400"
+  },
+  {
+    "StockName": "WIPRO",
+    "NoOfShare": "4",
+    "SharePrice": "600"
+  },
+  {
+    "StockName": "HITACHI",
+    "NoOfShare": "5",
+    "SharePrice": "400"
+  }
+]
